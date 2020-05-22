@@ -9,5 +9,11 @@
     },
     "scripts": {
         "test": "mocha --recursive tests"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.681.0",
+        "aws4": "^1.9.1",
+        "request": "^2.88.2",
+        "url": "^0.11.0"
     }
 }
