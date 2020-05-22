@@ -14,14 +14,16 @@ s3.listBuckets(function(err, data) {
   }
 });
 
+/*
 // quicksight
 const https = require('https');
 var quicksight = new AWS.QuickSight({apiVersion: '2018-04-01'});
 var params = {
-  AwsAccountId: '859497402242', /* required */
+  AwsAccountId: '###', / * required * /
   MaxResults: '10'
 };
 quicksight.listDashboards(params, function(err, data) {
   if (err) console.log(err, err.stack); // an error occurred
   else     console.log(data);           // successful response
 });
+*/
